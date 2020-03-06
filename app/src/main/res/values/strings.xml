@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DnD Dice</string>
+    <string name="instructions">Tap a Button to roll</string>
+    <string name="results">&lt;result&gt;</string>
+</resources>

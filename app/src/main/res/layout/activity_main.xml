@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/d4"
+        android:layout_width="319dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="280dp"
+        android:onClick="buttonPressed"
+        android:text="d4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/d6"
+        android:layout_width="316dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:onClick="buttonPressed"
+        android:text="d6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d4" />
+
+    <Button
+        android:id="@+id/d10"
+        android:layout_width="319dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="12dp"
+        android:onClick="buttonPressed"
+        android:text="d10"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d8" />
+
+    <Button
+        android:id="@+id/d20"
+        android:layout_width="316dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginBottom="75dp"
+        android:onClick="buttonPressed"
+        android:text="d20"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/d12"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <Button
+        android:id="@+id/d8"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:onClick="buttonPressed"
+        android:text="d8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d6" />
+
+    <Button
+        android:id="@+id/d12"
+        android:layout_width="316dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="8dp"
+        android:onClick="buttonPressed"
+        android:text="d12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/d10" />
+
+    <TextView
+        android:id="@+id/Roll"
+        android:layout_width="112dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginLeft="148dp"
+        android:text="You Rolled:"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="165dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
